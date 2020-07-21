@@ -41,22 +41,7 @@ export class ClienteFormComponent implements OnInit {
     this.clienteForm.patchValue(cliente);
   }
 
-/*
-  salvarCliente(){
-    if(this.clienteForm.invalid){
-      return;
-    }
 
-    let cliente : Cliente = this.clienteForm.value;
-    cliente.dataMod = new Date();
-    cliente.dataCad = new Date();
-   
-    this.clienteService.salvarClientes(cliente)
-    .then(response => this.handleSuccessSave(response, cliente))
-    .catch(err => console.error(err));
-
-  }
-  */
 
  salvarCliente(){
   if(this.clienteForm.invalid){
