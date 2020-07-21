@@ -5,12 +5,14 @@
 export const environment = {
   production: false,
   firebase : {
-    apiKey: "AIzaSyAnGF9OIBWO9zYpSQXaB9JmfLrppMs89qA",
-    authDomain: "banco-12c5b.firebaseapp.com",
-    databaseURL: "https://banco-12c5b.firebaseio.com",
-    projectId: "banco-12c5b",
-    storageBucket: "banco-12c5b.appspot.com",
-    messagingSenderId: "113969782012"
+    apiKey: "AIzaSyAH9YdjcGpny3XaGUUaVT-qQaz2NB96sqM",
+    authDomain: "site-angular-9b136.firebaseapp.com",
+    databaseURL: "https://site-angular-9b136.firebaseio.com",
+    projectId: "site-angular-9b136",
+    storageBucket: "site-angular-9b136.appspot.com",
+    messagingSenderId: "162247412436",
+    appId: "1:162247412436:web:e550cec6d9d12c9545c941"
+
   }
 };
 
